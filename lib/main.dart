@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -152,6 +154,7 @@ class ThirdPage extends StatelessWidget {
               '3rd Page',
               style: TextStyle(fontSize: 50),
             ),
+            Text('asd'),
             RaisedButton(
               child: Text('go next page'),
               onPressed: () {
