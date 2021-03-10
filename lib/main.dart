@@ -148,7 +148,7 @@ class _HomePageState extends State<HomePage> {
                             },
                             child: Center(
                               child: Text(
-                                'Loginn',
+                                'Loginnn',
                                 style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 15.0,
