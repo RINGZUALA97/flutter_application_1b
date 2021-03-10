@@ -83,7 +83,10 @@ class _HomePageState extends State<HomePage> {
             child: Column(
               children: <Widget>[
                 Container(
-                  padding: EdgeInsets.only(top: 25.0, left: 20.0, right: 20.0),
+                  padding: EdgeInsets.only(
+                    top: 25.0,
+                    left: 20.0,
+                  ),
                   child: Column(
                     children: <Widget>[
                       TextField(
@@ -120,7 +123,7 @@ class _HomePageState extends State<HomePage> {
                       Container(
                         alignment: Alignment(1.0, 0.0),
                         padding: EdgeInsets.only(top: 15.0, left: 20.0),
-                        child: InkWell(
+                        child: Material(
                           child: Text(
                             'Forget Password?',
                             style: TextStyle(
@@ -143,12 +146,15 @@ class _HomePageState extends State<HomePage> {
                           elevation: 7.0,
                           child: GestureDetector(
                             onTap: () {
-                              Navigator.of(context).push(MaterialPageRoute(
-                                  builder: (context) => Example()));
+                              Navigator.of(context).push(
+                                MaterialPageRoute(
+                                  builder: (context) => Example(),
+                                ),
+                              );
                             },
                             child: Center(
                               child: Text(
-                                'Login',
+                                'Loginnnn',
                                 style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 15.0,
