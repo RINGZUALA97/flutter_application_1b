@@ -46,6 +46,12 @@ class _HomePageState extends State<HomePage> {
             height: 100.0,
             width: double.infinity,
             decoration: BoxDecoration(
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.pink,
+                  blurRadius: 10.0,
+                ),
+              ],
               gradient: LinearGradient(
                   begin: Alignment.topLeft,
                   end: Alignment(0.8, 0.0),
